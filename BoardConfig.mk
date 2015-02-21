@@ -20,6 +20,8 @@
 # Inherit from the u8833 definitions
 -include device/huawei/u8833/BoardConfig.mk
 
+CM_BUILDTYPE := NIGHTLY
+
 TARGET_BOOTLOADER_BOARD_NAME := u8951
 
 # Bluetooth
