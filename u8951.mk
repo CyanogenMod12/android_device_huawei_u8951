@@ -19,6 +19,9 @@ DEVICE_PACKAGE_OVERLAYS += device/huawei/u8951/overlay
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.sensor.compass.xml:system/etc/permissions/android.hardware.sensor.compass.xml
+    
+PRODUCT_PACKAGES += \
+   OTAUpdates
 
 # Properties
 PRODUCT_PROPERTY_OVERRIDES += \
