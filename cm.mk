@@ -24,6 +24,8 @@ $(call inherit-product, device/huawei/u8951/full_u8951.mk)
 TARGET_SCREEN_HEIGHT := 800
 TARGET_SCREEN_WIDTH := 480
 
+CM_BUILDTYPE := NIGHTLY
+
 # Device name
 PRODUCT_NAME := cm_u8951
 PRODUCT_DEVICE := u8951
