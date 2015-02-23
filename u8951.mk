@@ -27,4 +27,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.confg.hw_appversion=U8951V5_0_KERNEL
 
 $(call inherit-product-if-exists, vendor/huawei/u8951/u8951-vendor.mk)
-$(call inherit-product, vendor/cm/config/ota.mk)
+#$(call inherit-product, vendor/cm/config/ota.mk)
